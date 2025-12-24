@@ -36,7 +36,7 @@ export default function FlincHero() {
           </h2>
 
           <p className="mt-4 max-w-xl text-black/70">
-            FLINC extends Sciunit's reproducibility engine to interactive notebooks such as Jupyter.
+            FLINC extends Sciunit&apos;s reproducibility engine to interactive notebooks such as Jupyter.
             Through <strong>Audit</strong> and <strong>Repeat</strong> kernels, it captures and replays complete 
             computational contexts — code, data, and binaries — ensuring <strong>re-executable</strong>, <strong>shareable</strong>, and  
             <strong> provenance-rich</strong> workflows beyond a single platform

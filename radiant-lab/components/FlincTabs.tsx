@@ -55,7 +55,7 @@ const tabData = [
               <h4 className="font-semibold text-black/80">Audit Kernel</h4>
             </div>
             <p className="text-sm text-black/70">
-              captures code, libraries, binaries, and runtime environment via Sciunit's system-call tracing.
+              captures code, libraries, binaries, and runtime environment via Sciunit&apos;s system-call tracing.
             </p>
           </div>
 
