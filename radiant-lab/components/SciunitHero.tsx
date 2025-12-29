@@ -31,11 +31,11 @@ export default function SciunitHero() {
             className="gap-2 px-4 py-2 text-sm font-medium bg-[#F1B82D] text-black hover:bg-[#f5c643] rounded-md shadow-none"
           >
             <a
-              href="https://jupyter.chameleoncloud.org/"
+              href="https://trovi.chameleoncloud.org/dashboard/artifacts/60bfeea7-d35d-42c1-ae3b-c8b94fae99a9"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Rocket className="h-4 w-4" />
+            <Rocket className="h-4 w-4" />
               Quickstart
             </a>  
           </Button>
