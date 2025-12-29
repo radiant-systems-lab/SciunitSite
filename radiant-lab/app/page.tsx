@@ -27,7 +27,8 @@ export default function Home() {
           <>
             <SciunitHero />
             <SciunitTabs />
-            <TryItNowButton label="Try SciunitCLI Now" />
+            <TryItNowButton label="Try SciunitCLI Now"
+            href="https://trovi.chameleoncloud.org/dashboard/artifacts/60bfeea7-d35d-42c1-ae3b-c8b94fae99a9" />
           </>
         ) : (
           <>
