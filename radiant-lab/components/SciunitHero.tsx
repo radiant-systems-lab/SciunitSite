@@ -35,8 +35,7 @@ export default function SciunitHero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-            <Rocket className="h-4 w-4" />
-              Quickstart
+            <Rocket className="h-4 w-4" /> Quickstart
             </a>  
           </Button>
         </div>
