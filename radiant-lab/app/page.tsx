@@ -34,7 +34,9 @@ export default function Home() {
           <>
             <FlincHero />
             <FlincTabs />
-            <TryItNowButton label="Try FLINC Now" />          </>
+            <TryItNowButton label="Try FLINC Now"
+            href="https://trovi.chameleoncloud.org/dashboard/artifacts/24618f97-95cc-4bbd-b79a-26adbfdc8cb7" />
+          </>
         )}
       </main>
 
