@@ -49,7 +49,7 @@ export default function FlincHero() {
           {/* Quickstart Button */}
           
           <Button asChild className="gap-2">
-            <Link href="/quickstart">
+            <Link href="https://trovi.chameleoncloud.org/dashboard/artifacts/24618f97-95cc-4bbd-b79a-26adbfdc8cb7">
               <Rocket className="h-4 w-4" />
                <span>Quickstart</span>
             </Link>
