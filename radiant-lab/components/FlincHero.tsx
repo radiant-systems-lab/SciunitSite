@@ -4,6 +4,7 @@ import { Rocket, Play } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
 
 const GOLD = "#F1B82D"; // Mizzou gold
 
@@ -46,13 +47,14 @@ export default function FlincHero() {
         {/* ---- RIGHT CONTENT ---- */}
         <div className="flex flex-col items-end gap-4">
           {/* Quickstart Button */}
-          <Button
+          <Link href="https://trovi.chameleoncloud.org/dashboard/artifacts/24618f97-95cc-4bbd-b79a-26adbfdc8cb7">
+            <Button
             className="gap-2 self-end"
             style={{ backgroundColor: GOLD, color: "black" }}
           >
-            <Rocket className="h-4 w-4" /> Try Quickstart
-          </Button>
-
+            <Rocket className="h-4 w-4" /> Quickstart
+            </Button>
+          </Link>
           {/* Video Placeholder */}
           <div className="group relative aspect-video w-full overflow-hidden rounded-2xl ring-1 ring-black/10 bg-black/5 flex items-center justify-center">
             <button className="inline-flex items-center gap-3 rounded-full px-5 py-3 ring-1 ring-black/20 transition hover:bg-black/5">
