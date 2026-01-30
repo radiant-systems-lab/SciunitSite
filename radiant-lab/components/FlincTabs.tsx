@@ -30,12 +30,10 @@ const tabData = [
     content: (
       <div className="space-y-3 text-black/80">
         <h3 className="text-lg font-semibold">Why notebooks aren&apos;t reproducible?</h3>
-        <p className="text-black/70 text-sm">Re-execution without re-install parties</p>
         <ul className="list-disc pl-5 text-sm leading-relaxed">
           <li>Hidden state and manual installs make notebooks hard to reproduce in different environments.</li>
           <li>Shared notebooks omit binaries, library versions, and system context.</li>
           <li>Execution order is often lost, breaking reproducibility.</li>
-          <li>Shared notebooks omit binaries, library versions, and system context.</li>
         </ul>
       </div>
     ),
@@ -46,7 +44,7 @@ const tabData = [
     content: (
       <>
         <h3 className="text-lg font-semibold text-black/90 mb-1">Notebook reproducibility through Sciunit integration</h3>
-        <p className="text-black/70 text-sm mb-4">Capture while you develop; repeat reliably later.</p>
+        <p className="text-black/70 text-sm mb-4">Capture after you finish developing notebook; repeat reliably later.</p>
 
         <div className="grid md:grid-cols-3 gap-4">
           <div className="rounded-2xl border border-black/10 bg-white p-4">
