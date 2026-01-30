@@ -26,9 +26,9 @@ export default function SciunitHero() {
           >
             Sciunit - CLI - Lightweight Runnable Packages
           </Badge>
-          
+
           <Button
-            asChild 
+            asChild
             className="gap-2 px-4 py-2 text-sm font-medium bg-[#F1B82D] text-black hover:bg-[#f5c643] rounded-md shadow-none"
           >
             <a
@@ -36,9 +36,9 @@ export default function SciunitHero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-            <Rocket className="h-4 w-4" /> 
-            <span>Quickstart</span>
-            </a>  
+              <Rocket className="h-4 w-4" />
+              <span>Quickstart</span>
+            </a>
           </Button>
         </div>
 
@@ -54,28 +54,33 @@ export default function SciunitHero() {
             </h2>
 
             <p className="mt-4 max-w-xl text-black/70">
-              Command Line Interface turns your research code, data, and environment into instantly 
-              recomputable containers using application virtualization. Unlike traditional 
-              research objects that only aggregate files, Sciunits enable repeatability — all with minimal storage and setup.
+              Command Line Interface turns your research code, data, and environment
+              into instantly recomputable containers using application virtualization.
+              Unlike traditional research objects that only aggregate files, Sciunits
+              enable repeatability — all with minimal storage and setup.
             </p>
 
             {/* === Bullets === */}
             <div className="mt-5 flex flex-wrap gap-4 text-sm text-black/70">
               <span className="inline-flex items-center gap-1">
-                <CheckCircle className="h-3.5 w-3.5" /> Application virtualization for container creation
+                <CheckCircle className="h-3.5 w-3.5" /> Application virtualization
+                for container creation
               </span>
               <span className="inline-flex items-center gap-1">
-                <CheckCircle className="h-3.5 w-3.5" /> Versioned storage via deduplication
+                <CheckCircle className="h-3.5 w-3.5" /> Versioned storage via
+                deduplication
               </span>
               <span className="inline-flex items-center gap-1">
-                <CheckCircle className="h-3.5 w-3.5" /> Provenance-guided reuse and visualization
+                <CheckCircle className="h-3.5 w-3.5" /> Provenance-guided reuse and
+                visualization
               </span>
             </div>
           </div>
 
-          {/* === Right Video === */}
+          {/* === Right Media (Video commented, placeholder image shown) === */}
           <div className="flex flex-col items-end gap-3">
             <div className="relative w-full rounded-2xl overflow-hidden ring-1 ring-black/10 bg-black/5">
+              {/*
               <iframe
                 className="w-full h-[270px] sm:h-[300px] md:h-[340px] lg:h-[380px]"
                 src="https://www.youtube.com/embed/qwosU7e9mqc"
@@ -83,10 +88,17 @@ export default function SciunitHero() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
+              */}
+
+              <img
+                src="/SciunitSite/SciunitCLI_Video_Image.png"
+                alt="Sciunit CLI – Video Coming Soon"
+                className="w-full h-[270px] sm:h-[300px] md:h-[340px] lg:h-[380px] object-cover"
+              />
             </div>
 
             <p className="text-xs text-black/60">
-              Watch the player for a quick understanding of Sciunit.
+              Video walkthrough coming soon.
             </p>
           </div>
         </div>

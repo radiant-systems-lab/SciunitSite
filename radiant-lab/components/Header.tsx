@@ -11,19 +11,27 @@ export default function Header() {
         <div className="flex items-center gap-3 -ml-4 sm:-ml-6 lg:-ml-20">
           {/* Logo Icon */}
           <button
-            className="flex h-9 w-9 items-center justify-center rounded-xl bg-black/5 ring-1 ring-black/10 focus:ring-2"
+            className="flex h-12 w-12 items-center justify-center rounded-xl bg-black/5 ring-1 ring-black/10 focus:ring-2"
             style={{ outlineColor: "#F1B82D" }}
           >
-            <Layers className="h-5 w-5" />
+            {/*<Layers className="h-5 w-5" />*/}
+            <img
+              src="/SciunitSite/Sciunit_screenshot_2.png"
+              alt="Sciunit Logo"
+              className="h-full w-full object-contain"
+            />
           </button>
 
           {/* Lab Text */}
-          <div>
-            <p className="text-sm leading-none text-black/70">Radiant Lab</p>
-            <h1 className="text-base font-semibold tracking-tight">
-              Reproducible Research — Sciunit---CLI and Notebook Kernels
-            </h1>
-          </div>
+          <div className="leading-tight">
+  <h1 className="text-lg font-semibold tracking-tight text-black">
+    Radiant Lab
+  </h1>
+  <p className="mt-0.5 text-m text-black/120">
+    Reproducible Research — Sciunit · CLI & Notebook Kernels
+  </p>
+</div>
+
         </div>
 
         {/* === Right Section (Lab Website Button) === */}
