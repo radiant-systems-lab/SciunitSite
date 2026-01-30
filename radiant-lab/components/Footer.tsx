@@ -23,7 +23,7 @@ export default function Footer() {
             Sciunit Visual Guide
           </h3>
           <p className="text-sm mt-2 leading-relaxed">
-            A contributor-friendly, visual way to learn and teach Sciunit:
+            A contributor-friendly, visual way to learn and teach Sciunit CLI and NB Kernels —:
             why it matters, how it works, and how to run it.
           </p>
         </div>
@@ -83,7 +83,7 @@ export default function Footer() {
       {/* --- Bottom Section: Copyright + Label --- */}
       <div className="text-center text-sm text-gray-700 py-4">
         <p>© 2025 Radiant Lab — All rights reserved.</p>
-        <p className="mt-1 font-medium">Sciunit & FLINC Prototype Website</p>
+        <p className="mt-1 font-medium">Sciunit CLI & NB Kernels Prototype Website</p>
       </div>
     </footer>
   );
