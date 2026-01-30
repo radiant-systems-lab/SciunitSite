@@ -28,16 +28,16 @@ export default function FlincHero() {
               borderColor: "rgba(0,0,0,0.1)",
             }}
           >
-            FLINC • Reproducible Notebooks
+            Sciunit - NB Kernels - Capture Notebook Environment
           </Badge>
 
           <h2 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
             Reproducible notebooks <br /> with{" "}
-            <span style={{ color: GOLD }}>FLINC</span>
+            <span style={{ color: GOLD }}>Sciunit NB Kernels</span>
           </h2>
 
           <p className="mt-4 max-w-xl text-black/70">
-            FLINC extends Sciunit&apos;s reproducibility engine to interactive notebooks such as Jupyter.
+            Sciunit NB Kernels extend reproducibility engine to interactive notebooks such as Jupyter.
             Through <strong>Audit</strong> and <strong>Repeat</strong> kernels, it captures and replays complete 
             computational contexts — code, data, and binaries — ensuring <strong>re-executable</strong>, <strong>shareable</strong>, and  
             <strong> provenance-rich</strong> workflows beyond a single platform

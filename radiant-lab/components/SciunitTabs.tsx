@@ -42,11 +42,11 @@ const tabData = [
   },
   {
     id: "what",
-    title: "What is Sciunit?",
+    title: "What is Sciunit CLI?",
     content: (
       <>
         <h3 className="text-lg font-semibold text-black/90 mb-1">
-          What is Sciunit?
+          What is Sciunit CLI?
         </h3>
         <p className="text-black/70 text-sm mb-4">
           Executable research objects with embedded provenance
@@ -100,7 +100,7 @@ const tabData = [
     content: (
       <>
         <h3 className="text-lg font-semibold text-black/90 mb-1">
-          How Sciunit addresses reproducibility
+          How Sciunit CLI addresses reproducibility
         </h3>
         <p className="text-black/70 text-sm mb-4">
           Stable runtime, navigable lineage, flexible re-execution
@@ -172,7 +172,7 @@ const tabData = [
           {/* Commented out */}
           {/* <p className="text-xs text-black/60 mb-1">Learn by doing in the Try-It lab</p> */}
           <p className="text-sm text-black/70">
-            Select a subset of steps derived from the provenance graph. Sciunit
+            Select a subset of steps derived from the provenance graph. Sciunit CLI
             auto-includes the necessary ancestors and files.
           </p>
         </div>
@@ -215,20 +215,28 @@ const tabData = [
 
           <div className="space-y-2 text-sm text-black/80">
             <p>
-              <strong>Step 1:</strong> Run your script under Sciunit to capture the run:
+              <strong>Step 1:</strong> Run your script under Sciunit CLI to capture the run:
             </p>
             <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
-{`scu package --cmd "python hello.py" --name hello-sciunit`}
+{`sciunit exec python3 hello.py   
+    outputs: hello sciunit` }
+            </pre>
+              <p>
+                This creates a new sciunit container (e1) capturing the execution.
+              </p>
+               <p>
+                <strong>Step 2:</strong> Run the command and copy the experiment 
+              </p>
+              <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
+{`sciunit copy `}
             </pre>
             <p>
-              <strong>Step 2:</strong> Repeat it anywhere compatible (same output, no setup):
+              <strong>Step 3:</strong> Repeat it anywhere compatible (same output, no setup):
             </p>
             <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
-{`scu repeat hello-sciunit`}
+{`sciunit repeat e1`}
             </pre>
-            <p className="text-xs text-black/60">
-              Tip: add <code>--include data/*.csv</code> to freeze inputs or omit to refetch live data.
-            </p>
+            
           </div>
         </div>
 

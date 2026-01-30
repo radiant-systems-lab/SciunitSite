@@ -21,7 +21,7 @@ export default function Header() {
           <div>
             <p className="text-sm leading-none text-black/70">Radiant Lab</p>
             <h1 className="text-base font-semibold tracking-tight">
-              Reproducible Research — FLINC & SciunitCLI
+              Reproducible Research — Sciunit---CLI and Notebook Kernels
             </h1>
           </div>
         </div>

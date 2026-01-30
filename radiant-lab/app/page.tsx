@@ -12,7 +12,7 @@ import TryItNowButton from "@/components/TryItNow";
 
 export default function Home() {
   // 🔸 lifted up state
-  const [activeTrack, setActiveTrack] = useState<"flinc" | "sciunit">("flinc");
+  const [activeTrack, setActiveTrack] = useState<"flinc" | "sciunit">("sciunit");
 
   return (
     <div className="flex flex-col min-h-screen">

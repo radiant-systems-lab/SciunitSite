@@ -29,11 +29,11 @@ const tabData = [
     title: "Background & Pain Points",
     content: (
       <div className="space-y-3 text-black/80">
-        <h3 className="text-lg font-semibold">Why notebooks need provenance</h3>
+        <h3 className="text-lg font-semibold">Why notebooks aren't reproducible?</h3>
         <p className="text-black/70 text-sm">Re-execution without re-install parties</p>
         <ul className="list-disc pl-5 text-sm leading-relaxed">
-          <li>Hidden state and manual installs make notebooks hard to reproduce.</li>
-          <li>Environments drift — dependencies change or disappear over time.</li>
+          <li>Hidden state and manual installs make notebooks hard to reproduce in different environments.</li>
+          <li>Shared notebooks omit binaries, library versions, and system context.</li>
           <li>Execution order is often lost, breaking reproducibility.</li>
           <li>Shared notebooks omit binaries, library versions, and system context.</li>
         </ul>
@@ -42,7 +42,7 @@ const tabData = [
   },
   {
     id: "what",
-    title: "What is FLINC?",
+    title: "What are Sciunit NB Kernels?",
     content: (
       <>
         <h3 className="text-lg font-semibold text-black/90 mb-1">Notebook reproducibility through Sciunit integration</h3>
@@ -88,10 +88,10 @@ const tabData = [
   content: (
     <>
       <h3 className="text-lg font-semibold text-black/90 mb-1">
-        How FLINC captures and replays notebooks
+        How Sciunit NB Kernels captures and replays notebooks
       </h3>
       <p className="text-black/70 text-sm mb-4">
-        FLINC connects notebook with Sciunit’s runtime capture system. 
+        Sciunit NB Kernels connects notebook with Sciunit’s runtime capture system. 
       </p>
 
       <div className="grid md:grid-cols-3 gap-4">
@@ -114,7 +114,7 @@ const tabData = [
             <h4 className="font-semibold text-black/80">Provenance Capture</h4>
           </div>
           <p className="text-sm text-black/70">
-            FLINC builds a <strong>process-to-file graph</strong> summarizing how code cells use data and
+            Sciunit NB Kernels builds a <strong>process-to-file graph</strong> summarizing how code cells use data and
             dependencies, enabling partial or modified replays later.
           </p>
         </div>
@@ -144,7 +144,7 @@ const tabData = [
         Three reproducibility modes in action
       </h3>
       <p className="text-black/70 text-sm mb-4">
-        FLINC supports flexible re-execution: from identical reruns to selective cell execution
+        Sciunit NB Kernels supports flexible re-execution: from identical reruns to selective cell execution
         and comparative exploration — all powered by captured provenance.
       </p>
 
@@ -172,7 +172,7 @@ const tabData = [
             </h4>
           </div>
           <p className="text-sm text-black/70">
-            Re-run only selected notebook cells. FLINC automatically includes
+            Re-run only selected notebook cells. Sciunit NB Kernels automatically includes
             the necessary upstream dependencies to maintain consistency.
           </p>
         </div>
@@ -240,14 +240,14 @@ const tabData = [
 
   {
   id: "example",
-  title: "Hello, FLINC Example",
+  title: "Sciunit NB Kernels Example",
   content: (
     <>
       <h3 className="text-lg font-semibold text-black/90 mb-1">
-        “Hello, FLINC” — minimal notebook capture
+        Sciunit NB Kernels in action
       </h3>
       <p className="text-black/70 text-sm mb-4">
-        Capture and replay a simple notebook using FLINC’s <strong>Audit</strong> and <strong>Repeat</strong> kernels.
+        Capture and replay a simple notebook using Sciunit NB  <strong>Audit</strong> and <strong>Repeat</strong> kernels.
       </p>
 
       <div className="grid md:grid-cols-2 gap-4 mb-4">
@@ -272,7 +272,7 @@ arr.mean()`}
           </p>
           <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
 {`# From Jupyter
-Kernel → Change Kernel → flinc_audit
+Kernel → Change Kernel → sciunit audit kernel
 Run All Cells`}
           </pre>
 
@@ -281,7 +281,7 @@ Run All Cells`}
           </p>
           <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
 {`# From Jupyter
-Kernel → Change Kernel → flinc_repeat
+Kernel → Change Kernel → sciunit repeat kernel
 Run All Cells`}
           </pre>
 
