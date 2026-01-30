@@ -29,7 +29,7 @@ const tabData = [
     title: "Background & Pain Points",
     content: (
       <div className="space-y-3 text-black/80">
-        <h3 className="text-lg font-semibold">Why notebooks aren't reproducible?</h3>
+        <h3 className="text-lg font-semibold">Why notebooks aren&apos;t reproducible?</h3>
         <p className="text-black/70 text-sm">Re-execution without re-install parties</p>
         <ul className="list-disc pl-5 text-sm leading-relaxed">
           <li>Hidden state and manual installs make notebooks hard to reproduce in different environments.</li>
