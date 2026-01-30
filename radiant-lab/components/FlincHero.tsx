@@ -76,7 +76,7 @@ export default function FlincHero() {
 
           {/* Subtext */}
           <p className="text-xs text-black/60">
-            Watch the player for a quick understanding of Sciunit NB Kernels.
+            Video Walkthrough Coming Soon.
           </p>
         </div>
       </motion.div>
